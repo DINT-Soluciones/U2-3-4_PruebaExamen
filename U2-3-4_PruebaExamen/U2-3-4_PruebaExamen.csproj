@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <RootNamespace>U2_3_4_PruebaExamen</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\test.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\castle.jpg" />
+    <None Remove="Assets\code.jpg" />
+    <None Remove="Assets\digital.jpg" />
+    <None Remove="Assets\info.png" />
+    <None Remove="Assets\monitor.jpg" />
+    <None Remove="Assets\plans.jpg" />
+    <None Remove="Assets\solarsystem.jpg" />
+    <None Remove="Assets\student.jpg" />
+    <None Remove="Assets\test.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\test.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\castle.jpg" />
+    <Resource Include="Assets\code.jpg" />
+    <Resource Include="Assets\digital.jpg" />
+    <Resource Include="Assets\info.png" />
+    <Resource Include="Assets\monitor.jpg" />
+    <Resource Include="Assets\plans.jpg" />
+    <Resource Include="Assets\solarsystem.jpg" />
+    <Resource Include="Assets\student.jpg" />
+    <Resource Include="Assets\test.ico" />
+  </ItemGroup>
+
+</Project>
