@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace U2_3_4_PruebaExamen
 {
-    public class Frase:ObservableRecipient
+    public class Frase:ObservableObject
     {
         private string? _textoAlmacenado;
         public string? TextoAlmacenado
