@@ -7,15 +7,10 @@ using System.Threading.Tasks;
 
 namespace U2_3_4_PruebaExamen
 {
-    public class Frase:ObservableObject
+    public partial class Frase:ObservableObject
     {
+        [ObservableProperty]
         private string? _textoAlmacenado;
-        public string? TextoAlmacenado
-        {
-            get => _textoAlmacenado;
-            set => SetProperty(ref _textoAlmacenado, value);
-        }
-
         public Frase()
         {
             TextoAlmacenado = null;

@@ -72,7 +72,7 @@ namespace U2_3_4_PruebaExamen
 
             // Aplicar el binding al TextBlock.
             t.SetBinding(TextBlock.TextProperty, binding);
-
+            
             contenedorWrapPanel.Children.Add(t);
         }
     }
