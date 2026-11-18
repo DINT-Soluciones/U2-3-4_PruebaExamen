@@ -18,13 +18,14 @@ namespace U2_3_4_PruebaExamen
     {
         private int vecesAceptar;
         private int vecesCancelar;
-        private Frase frase;
+        private Frase mifrase;
  
         public MainWindow()
         {
             InitializeComponent();
-            frase= new Frase();
-            this.DataContext = frase;
+            
+            mifrase= new Frase();
+            this.DataContext = mifrase;
         }
 
         private void aceptarButton_Click(object sender, RoutedEventArgs e)
@@ -65,7 +66,7 @@ namespace U2_3_4_PruebaExamen
             // Modo "OneTime" para que coja el valor en el momento de crear el binding, y no se actualice en el futuro.
             Binding binding = new Binding("TextoAlmacenado")    
             {
-                Source = frase,
+                Source = mifrase,
                 Mode = BindingMode.OneTime,
                 UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
             };

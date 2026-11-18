@@ -4,12 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:U2_3_4_PruebaExamen"
+        d:DataContext="{d:DesignInstance Type=local:Frase}"
         mc:Ignorable="d"
         Title="U2-3-4 Prueba examen - Solución" 
  		Height="550" Width="750" MinHeight="500" MinWidth="700"
         WindowStartupLocation="CenterScreen">
-    
-    <Window.Resources>
+
+         
+        <Window.Resources>
         
         <Style TargetType="{x:Type Button}">
             <Setter Property="Width" Value="100"/>
